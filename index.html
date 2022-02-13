@@ -1,0 +1,14 @@
+<textarea class="tinymce" id="content" name="content"> </textarea>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="tinymce/tinymce.min.js"></script>
+<script type="text/javascript" src="tinymce/init-tinymce.js"></script>
+
+<script>
+  setInterval(function () {
+    const a = document.getElementById("content").value;
+    console.log(a);
+  }, 5000);
+</script>
